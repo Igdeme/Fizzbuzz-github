@@ -64,22 +64,6 @@ Normalmente, podríamos ejecutar `npm jest` para realizar el test en la consola,
 
 `test:watch` nos serviría para que haga los test cada vez que hagamos algún cambio, pero ahora mismo probaremos simplemente `npm test` que nos dará este resultado.
 
-```terminal
-> fizzbuzz@1.0.0 test
-> jest
-
- PASS  ./fizzbuzz.test.js
-  fizzbuzz
-    √ Should print fizz if they recieve a multiple of 2 (2 ms)
-    √ Should print fizz if they recieve a multiple of 3 (1 ms)
-    √ Should print fizz if they recieve a multiple of 2 and 3
-    √ Should print Nope if they recieve any other number
-
-Test Suites: 1 passed, 1 total
-Tests:       4 passed, 4 total
-Snapshots:   0 total
-Time:        1.03 s
-Ran all test suites.
-```
+![Captura Test](/Images/Terminal.png)
 
 Como podemos ver, el test de `fizzbuzz` aparece correctamente, al igual que el resto de tests en el código.
